@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>
+Dwarves Civ
+</title>
+</head>
+
+<body>
+
+
+<!-- Load Scipts -->
+
+<script src="Scipts/initalize.js" /></script>
+<script src="Scipts/jquery.min.js" /></script>
+<script src="Scipts/buttons.js" /></script>
+
+<!-- End Load Scripts -->
+<body>
+</html>
