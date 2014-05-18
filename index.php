@@ -58,7 +58,10 @@ Dwarves Civ
 
 <!-- Load Scipts -->
 <script src="Scripts/jquery.min.js" /></script>
-<script src="Scripts/buttons.js" /></script>
+<script src="Dwarves/dwarfbuttons.js" /></script>
+<script src="Dwarves/dwarfvariables.js" /></script>
+<script src="Dwarves/newdwarf.js" /></script>
+<script src="Dwarves/newminer.js" /></script>
 <script src="Variables/variables.js" /></script>
 <script src="Scripts/initalize.js" /></script>
 
