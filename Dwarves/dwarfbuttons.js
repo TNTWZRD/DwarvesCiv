@@ -1,7 +1,7 @@
 $(function(){
 		$("#NDwarf").click(function(event) {
 			event.preventDefault();
-			newDwarf(1);
+			Dwarves.newDwarf();
 		});
 	}
 );
@@ -9,7 +9,8 @@ $(function(){
 $(function(){
 		$("#NMiner").click(function(event) {
 			event.preventDefault();
-			newMiner(1);
+			Dwarves.newMiner(1);
 		});
 	}
 );
+
