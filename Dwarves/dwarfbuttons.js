@@ -1,7 +1,7 @@
 $(function(){
 		$("#NDwarf").click(function(event) {
 			event.preventDefault();
-			Dwarves.newDwarf();
+			Dwarves.newChild(1);
 		});
 	}
 );
