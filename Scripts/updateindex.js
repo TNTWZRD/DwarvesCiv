@@ -40,6 +40,13 @@ Update = function(){
 	document.getElementById("Stat.Bow").innerHTML = Vars.Tools.Bow;
 	document.getElementById("Stat.Shear").innerHTML = Vars.Tools.Shear;
 	document.getElementById("Stat.BrickMold").innerHTML = Vars.Tools.BrickMold;
+
+	// Update Storage Data
+	document.getElementById("Stat.Chest").innerHTML = Vars.Storage.Numbers.Chest
+	document.getElementById("Stat.Cave").innerHTML = Vars.Storage.Numbers.Cave;
+	document.getElementById("Stat.TotalStorage").innerHTML = Vars.Storage.Current;
+	
+	// End Update Tab Stuff
 }
 
 Update();

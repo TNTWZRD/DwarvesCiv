@@ -12,6 +12,16 @@ Dwarves Civ
 <body>
 
 <ul id="navbar">
+	
+	<li><a href="#">Utility Buttons</a>
+	<ul>
+		<li><a href="#" id="Save-Game">Save Game</a></li>
+		<li><a href="#" id="Load-Game">Load Game</a></li>
+		<li><a href="#" id="Clear-Game">Clear Game</a></li>
+		<li><a href="#" id="PauseButton">Pause</a></li>
+	</ul>
+	</li>
+	
 	<li><a href="#">Dwarves</a>
 	<ul>
 		<li><a href="#" id="NDwarf">New Dwarf</a></li>
@@ -114,16 +124,12 @@ Dwarves Civ
 	</ul>
 	</li>
 	
-	<li><a href="#">Utility Buttons</a>
+	<li><a href="#">Time and Date</a>
 	<ul>
-		<li><a href="#" id="Save-Game">Save Game</a></li>
-		<li><a href="#" id="Load-Game">Load Game</a></li>
-		<li><a href="#" id="Clear-Game">Clear Game</a></li>
+		<li>Day: <span id="Stat.Time.Day">1</span></li>
+		<li>Year: <span id="Stat.Time.Year">1</span></li>
+		<li>Time: <span id="Stat.Time.Hours">00</span>:<span id="Stat.Time.Mins">00</span>:<span id="Stat.Time.Seconds">00</span></li>
 	</ul>
-	</li>
-	
-	<li>
-		<a href="#" id="PauseButton">Pause</a>
 	</li>
 	
 </ul>
@@ -136,8 +142,11 @@ Dwarves Civ
 <script src="Dwarves/newdwarf.js" /></script>
 <script src="Dwarves/newminer.js" /></script>
 <script src="Scripts/initalize.js" /></script>
+<script src="Scripts/timeanddate.js" /></script>
+<script src="Scripts/localstorage.js" /></script>
 <script src="Scripts/updateindex.js" /></script>
 <script src="Dwarves/dwarfbuttons.js" /></script>
+<script src="Scripts/buttonlistener.js" /></script>
 <!-- End Load Scripts -->
 <body>
 </html>

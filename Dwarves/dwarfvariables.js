@@ -1,6 +1,8 @@
 Dwarves = {};
 Dwarves.Var = {};
 
+Dwarves.Var.MaleReady = 1;
+Dwarves.Var.FemaleReady =1;
 Dwarves.Var.TotalDwarves = 2;
 Dwarves.Var.MaleDwarves = 1;
 Dwarves.Var.Children = 0;
