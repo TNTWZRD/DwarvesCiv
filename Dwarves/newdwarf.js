@@ -7,13 +7,13 @@ Dwarves.newDwarf = function(num){
 	if(random == 1){
 		Dwarves.Var.MaleDwarves += 1;
 		Dwarves.Var.TotalDwarves += 1;
-		Dwarves.Var.NewDwarves += 1;
+		Dwarves.Var.noneDwarves += 1;
 		Dwarves.Var.MaleReady += 1;
 		console.log("Created Male Dwarf");
 	}else if(random == 0){
 		Dwarves.Var.FemaleDwarves += 1;
 		Dwarves.Var.TotalDwarves += 1;
-		Dwarves.Var.NewDwarves += 1;
+		Dwarves.Var.noneDwarves += 1;
 		Dwarves.Var.FemaleReady += 1;
 		console.log("Created Female Dwarf");
 	}else{

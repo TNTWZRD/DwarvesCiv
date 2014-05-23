@@ -38,3 +38,20 @@ $(function(){
 		});
 	}
 );
+
+$(function(){
+		$("#AutoSave").click(function(event) {
+			event.preventDefault();
+			if(Game.AutoSave == true){
+			Game.AutoSave = false;
+			document.getElementById("AutoSave").innerHTML = "Turn Auto Save On";
+			console.log("Auto Save Is Now Off");
+			}
+			else if(Game.AutoSave == false){
+			Game.AutoSave = true;
+			document.getElementById("AutoSave").innerHTML = "Turn Auto Save Off";
+			console.log("Auto Save Is Now On");
+			}
+		});
+	}
+);

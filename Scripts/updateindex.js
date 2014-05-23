@@ -4,6 +4,7 @@ Update = function(){
 	document.getElementById("Stat.Children").innerHTML = Dwarves.Var.Children;
 	document.getElementById("Stat.MDwarf").innerHTML = Dwarves.Var.MaleDwarves;
 	document.getElementById("Stat.FDwarf").innerHTML = Dwarves.Var.FemaleDwarves;
+	document.getElementById("Stat.NOccupation").innerHTML = Dwarves.Var.noneDwarves;
 	document.getElementById("Stat.Miner").innerHTML = Dwarves.Var.MinerDwarves;
 	document.getElementById("Stat.Logger").innerHTML = Dwarves.Var.LoggerDwarves;
 	document.getElementById("Stat.Farmer").innerHTML = Dwarves.Var.FarmerDwarves;
@@ -29,6 +30,13 @@ Update = function(){
 	document.getElementById("Stat.Grass").innerHTML = Vars.Items.Grass;
 	document.getElementById("Stat.Brick").innerHTML = Vars.Items.Brick;
 	document.getElementById("Stat.Wheat").innerHTML = Vars.Items.Wheat;
+	
+	// Update Food Data
+	document.getElementById("Stat.Apple").innerHTML = Vars.Food.Apple;
+	document.getElementById("Stat.Berry").innerHTML = Vars.Food.Berry;
+	document.getElementById("Stat.Fish").innerHTML = Vars.Food.Fish;
+	document.getElementById("Stat.Beef").innerHTML = Vars.Food.Beef;
+	document.getElementById("Stat.Ham").innerHTML = Vars.Food.Ham;
 	
 	// Update Tool Data
 	document.getElementById("Stat.Pick").innerHTML = Vars.Tools.Pick;

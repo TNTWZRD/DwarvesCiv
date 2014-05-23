@@ -9,7 +9,7 @@ $(function(){
 $(function(){
 		$("#NMiner").click(function(event) {
 			event.preventDefault();
-			Dwarves.newMiner(1);
+			Dwarves.newMiner();
 		});
 	}
 );

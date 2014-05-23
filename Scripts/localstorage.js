@@ -1,5 +1,7 @@
 Game = {};
 
+Game.AutoSave = false;
+
 Game.SaveRes = function(){
 	localStorage.setItem('Dwarves.Var', btoa(JSON.stringify(Dwarves.Var)));
 	localStorage.setItem('Vars', btoa(JSON.stringify(Vars)));
@@ -26,4 +28,10 @@ Game.ClearRes = function(){
 
 if(localStorage.getItem("Dwarves.Var") != null){Game.LoadRes();}else{Game.SaveRes();}
 
-setInterval("Game.SaveRes();",300000);
+autoSave = function(){
+	if(Game.AutoSave == true){
+	Game.SaveRes();
+	}
+}
+
+setInterval("autoSave();",10000);

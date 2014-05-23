@@ -18,6 +18,7 @@ Dwarves Civ
 		<li><a href="#" id="Save-Game">Save Game</a></li>
 		<li><a href="#" id="Load-Game">Load Game</a></li>
 		<li><a href="#" id="Clear-Game">Clear Game</a></li>
+		<li><a href="#" id="AutoSave">Turn Auto Save On</a></li>
 		<li><a href="#" id="PauseButton">Pause</a></li>
 	</ul>
 	</li>
@@ -48,6 +49,7 @@ Dwarves Civ
 		<li><a href="#" id="NField">New Field</a></li>
 		<li><a href="#" id="NBrickField">New Brick Field</a></li>
 		<li><a href="#" id="NBrewery">New Brewery</a></li>
+		<li><a href="#" id="NAnimalPen">New Animal Pen</a></li>
 	</ul>
 	</li>
 	
@@ -71,6 +73,7 @@ Dwarves Civ
 		<li>Childeren: <span id="Stat.Children">0</span></li>
 		<li>Male Dwarves: <span id="Stat.MDwarf">0</span></li>
 		<li>Female Dwarves: <span id="Stat.FDwarf">0</span></li>
+		<li>No Occupation: <span id="Stat.NOccupation">0</span></li>
 		<li>Miner: <span id="Stat.Miner">0</span></li>
 		<li>Logger: <span id="Stat.Logger">0</span></li>
 		<li>Farmer: <span id="Stat.Farmer">0</span></li>
@@ -99,6 +102,16 @@ Dwarves Civ
 		<li>Brick: <span id="Stat.Brick">0</span></li>
 		<li>Grass: <span id="Stat.Grass">0</span></li>
 		<li>Wheat: <span id="Stat.Wheat">0</span></li>
+	</ul>
+	</li>
+	
+	<li><a href="#">Food Data</a>
+	<ul>
+		<li>Apple: <span id="Stat.Apple">0</span></li>
+		<li>Berry: <span id="Stat.Berry">0</span></li>
+		<li>Fish: <span id="Stat.Fish">0</span></li>
+		<li>Beef: <span id="Stat.Beef">0</span></li>
+		<li>Ham: <span id="Stat.Ham">0</span></li>
 	</ul>
 	</li>
 	

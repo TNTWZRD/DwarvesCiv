@@ -1,6 +1,6 @@
-Dwarves.newMiner = function(number){
-	if(Dwarves.Var.NewDwarves >= number){
-	Dwarves.Var.NewDwarves -= number;
-	Dwarves.Var.MinerDwarves += number;
+Dwarves.newMiner = function(){
+	if(Dwarves.Var.noneDwarves >= 1){
+	Dwarves.Var.noneDwarves -= 1;
+	Dwarves.Var.MinerDwarves += 1;
 	}
 }
