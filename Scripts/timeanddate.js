@@ -2,9 +2,18 @@ Time = {};
 
 Time.Seconds = 0;
 Time.Mins = 0;
-Time.Hours = 0;
+Time.Hours = 13;
 Time.Day = 0;
 Time.Year = 0;
+
+Time.Seasons = {};
+Time.Seasons.Spring = 91;
+Time.Seasons.Summer = 183;
+Time.Seasons.Fall = 274;
+Time.Seasons.Winter = 365;
+
+Time.Seasons.Current;
+
 
 Time.Realtime = {};
 Time.Realtime.Seconds = 0;
@@ -46,6 +55,16 @@ RealSecondsAdd = function(){
 
 checkTime =  function(){
 	
+	if(Time.Day > 0 && Time.Day <=91){
+		Time.Seasons.Current = "Spring";
+	}else if(Time.Day > 91 && Time.Day <=183){
+		Time.Seasons.Current = "Summer";
+	}else if(Time.Day > 183 && Time.Day <=274){
+		Time.Seasons.Current = "Fall";
+	}else if(Time.Day > 274 && Time.Day <=365){
+		Time.Seasons.Current = "Winter";
+	}
+	
 	if(Time.Day <= 0){
 		Time.Day += 1;
 	}
@@ -65,9 +84,13 @@ checkTime =  function(){
 		Time.Hours = 0;
 		Time.Day += 1;
 	}
-	if(Time.Day >= 365){
+	if(Time.Day > 365){
 		Time.Day = 0;
 		Time.Year += 1;
+	}
+	
+	if(Time.Hours == 7 || Time.Hours == 12 || Time.Hours == 21){
+		Dwarves.Eat();
 	}
 }
 

@@ -2,6 +2,7 @@ Vars = {}
 Vars.Items = {};
 Vars.Tools = {};
 Vars.Other = {};
+Vars.Buildings = {};
 Vars.Food = {};
 Vars.Storage = {};
 Vars.Storage.Numbers = {};
@@ -22,6 +23,19 @@ Vars.Items.Clay = 0;
 Vars.Items.Brick = 0;
 Vars.Items.Wheat = 0;
 Vars.Items.Grass = 0;
+
+// Building Vars
+
+Vars.Buildings.Houses = 0;
+Vars.Buildings.Mines = 0;
+Vars.Buildings.Farms = 0;
+Vars.Buildings.Mills = 0;
+Vars.Buildings.Smitherys = 0;
+Vars.Buildings.Barracks = 0;
+Vars.Buildings.Fields = 0;
+Vars.Buildings.BrickFields = 0;
+Vars.Buildings.Brewerys = 0;
+Vars.Buildings.AnimalPens = 0;
 
 // Tool Vars
 

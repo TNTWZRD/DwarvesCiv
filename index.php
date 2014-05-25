@@ -3,7 +3,6 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="Styles/main-style.css">
-<link rel="stylesheet" type="text/css" href="Styles/menu-style.css">
 <title>
 Dwarves Civ
 </title>
@@ -11,141 +10,166 @@ Dwarves Civ
 
 <body>
 
+<div id="header">
+<h1>Dwarf Civilizations I</h1>
+</div>
+
 <ul id="navbar">
 	
-	<li><a href="#">Utility Buttons</a>
+	<li><a href="">Utility Buttons</a>
 	<ul>
-		<li><a href="#" id="Save-Game">Save Game</a></li>
-		<li><a href="#" id="Load-Game">Load Game</a></li>
-		<li><a href="#" id="Clear-Game">Clear Game</a></li>
-		<li><a href="#" id="AutoSave">Turn Auto Save On</a></li>
-		<li><a href="#" id="PauseButton">Pause</a></li>
+		<li><a href="" id="Save-Game">Save Game</a><br>
+		<a href="" id="Load-Game">Load Game</a><br>
+		<a href="" id="Clear-Game">Clear Game</a><br>
+		<a href="" id="AutoSave">Turn Auto Save On</a><br>
+		<a href="" id="PauseButton">Pause</a></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Dwarves</a>
+	<li><a href="">Dwarves</a>
 	<ul>
-		<li><a href="#" id="NDwarf">New Dwarf</a></li>
-		<li><a href="#" id="NMiner">New Miner</a></li>
-		<li><a href="#" id="NFarmer">New Farmer</a></li>
-		<li><a href="#" id="NLogger">New Logger</a></li>
-		<li><a href="#" id="NBlacksmith">New Blacksmith</a></li>
-		<li><a href="#" id="NHunter">New Hunter</a></li>
-		<li><a href="#" id="NGuard">New Guard</a></li>
-		<li><a href="#" id="NShepherd">New Shepherd</a></li>
-		<li><a href="#" id="NBuilder">New Builder</a></li>
-		<li><a href="#" id="NBrickmaker">New Brickmaker</a></li>
+		<li><a href="" id="NDwarf">New Dwarf</a><br>
+		<a href="" id="NMiner">New Miner</a><br>
+		<a href="" id="NFarmer">New Farmer</a><br>
+		<a href="" id="NLogger">New Logger</a><br>
+		<a href="" id="NBlacksmith">New Blacksmith</a><br>
+		<a href="" id="NHunter">New Hunter</a><br>
+		<a href="" id="NGuard">New Guard</a><br>
+		<a href="" id="NShepherd">New Shepherd</a><br>
+		<a href="" id="NBuilder">New Builder</a><br>
+		<a href="" id="NBrickmaker">New Brickmaker</a></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Buildings</a>
+	<li><a href="">Buildings</a>
 	<ul>
-		<li><a href="#" id="NHouse">New House</a></li>
-		<li><a href="#" id="NMine">New Mine</a></li>
-		<li><a href="#" id="NFarm">New Farm</a></li>
-		<li><a href="#" id="NMill">New Mill</a></li>
-		<li><a href="#" id="NSmithery">New Smithery</a></li>
-		<li><a href="#" id="NBarracks">New Barracks</a></li>
-		<li><a href="#" id="NField">New Field</a></li>
-		<li><a href="#" id="NBrickField">New Brick Field</a></li>
-		<li><a href="#" id="NBrewery">New Brewery</a></li>
-		<li><a href="#" id="NAnimalPen">New Animal Pen</a></li>
+		<li><a href="" id="NHouse">New House</a><br>
+		<a href="" id="NMine">New Mine</a><br>
+		<a href="" id="NFarm">New Farm</a><br>
+		<a href="" id="NMill">New Mill</a><br>
+		<a href="" id="NSmithery">New Smithery</a><br>
+		<a href="" id="NBarracks">New Barracks</a><br>
+		<a href="" id="NField">New Field</a><br>
+		<a href="" id="NBrickField">New Brick Field</a><br>
+		<a href="" id="NBrewery">New Brewery</a><br>
+		<a href="" id="NAnimalPen">New Animal Pen</a><br>
+		<a href="" id="NChest">New Chest</a><br>
+		<a href="" id="NCave">New Cave</a></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Tools</a>
+	<li><a href="">Tools</a>
 	<ul>
-		<li><a href="#" id="NPick">New Pick</a></li>
-		<li><a href="#" id="NHoe">New Hoe</a></li>
-		<li><a href="#" id="NAxe">New Axe</a></li>
-		<li><a href="#" id="NAnvil">New Anvil</a></li>
-		<li><a href="#" id="NHammer">New Hammer</a></li>
-		<li><a href="#" id="NSword">New Sword</a></li>
-		<li><a href="#" id="NBow">New Bow</a></li>
-		<li><a href="#" id="NShear">New Shear</a></li>
-		<li><a href="#" id="NBrickMold">New Brick Mold</a></li>
+		<li><a href="" id="NPick">New Pick</a><br>
+		<a href="" id="NHoe">New Hoe</a><br>
+		<a href="" id="NAxe">New Axe</a><br>
+		<a href="" id="NAnvil">New Anvil</a><br>
+		<a href="" id="NHammer">New Hammer</a><br>
+		<a href="" id="NSword">New Sword</a><br>
+		<a href="" id="NBow">New Bow</a><br>
+		<a href="" id="NShear">New Shear</a><br>
+		<a href="" id="NBrickMold">New Brick Mold</a></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Dwarf Data</a>
+	<li><a href="">Dwarf Data</a>
 	<ul>
-		<li>Dwarves: <span id="Stat.Dwarf">0</span></li>
-		<li>Childeren: <span id="Stat.Children">0</span></li>
-		<li>Male Dwarves: <span id="Stat.MDwarf">0</span></li>
-		<li>Female Dwarves: <span id="Stat.FDwarf">0</span></li>
-		<li>No Occupation: <span id="Stat.NOccupation">0</span></li>
-		<li>Miner: <span id="Stat.Miner">0</span></li>
-		<li>Logger: <span id="Stat.Logger">0</span></li>
-		<li>Farmer: <span id="Stat.Farmer">0</span></li>
-		<li>Blacksmith: <span id="Stat.Blacksmith">0</span></li>
-		<li>Hunter: <span id="Stat.Hunter">0</span></li>
-		<li>Guard: <span id="Stat.Guard">0</span></li>
-		<li>Shepherd: <span id="Stat.Shepherd">0</span></li>
-		<li>Builder: <span id="Stat.Builder">0</span></li>
-		<li>Brickmaker: <span id="Stat.Brickmaker">0</span></li>
+		<li>Dwarves: <span id="Stat.Dwarf">0</span><br>
+		Childeren: <span id="Stat.Children">0</span><br>
+		Male Dwarves: <span id="Stat.MDwarf">0</span><br>
+		Female Dwarves: <span id="Stat.FDwarf">0</span><br>
+		No Occupation: <span id="Stat.NOccupation">0</span><br>
+		Miner: <span id="Stat.Miner">0</span><br>
+		Logger: <span id="Stat.Logger">0</span><br>
+		Farmer: <span id="Stat.Farmer">0</span><br>
+		Blacksmith: <span id="Stat.Blacksmith">0</span><br>
+		Hunter: <span id="Stat.Hunter">0</span><br>
+		Guard: <span id="Stat.Guard">0</span><br>
+		Shepherd: <span id="Stat.Shepherd">0</span><br>
+		Builder: <span id="Stat.Builder">0</span><br>
+		Brickmaker: <span id="Stat.Brickmaker">0</span></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Item Data</a>
+	<li><a href="">Building Data</a>
 	<ul>
-		<li>Stone: <span id="Stat.Stone">0</span></li>
-		<li>Dirt: <span id="Stat.Dirt">0</span></li>
-		<li>Coal: <span id="Stat.Coal">0</span></li>
-		<li>Iron: <span id="Stat.Iron">0</span></li>
-		<li>Gold: <span id="Stat.Gold">0</span></li>
-		<li>Flint: <span id="Stat.Flint">0</span></li>
-		<li>Copper: <span id="Stat.Copper">0</span></li>
-		<li>Wood: <span id="Stat.Wood">0</span></li>
-		<li>Log: <span id="Stat.Log">0</span></li>
-		<li>Wool: <span id="Stat.Wool">0</span></li>
-		<li>Clay: <span id="Stat.Clay">0</span></li>
-		<li>Brick: <span id="Stat.Brick">0</span></li>
-		<li>Grass: <span id="Stat.Grass">0</span></li>
-		<li>Wheat: <span id="Stat.Wheat">0</span></li>
+		<li>
+		Houses: <span id="Stat.House">0</span><br>
+		Mines: <span id="Stat.Mine">0</span><br>
+		Farms: <span id="Stat.Farm">0</span><br>
+		Mills: <span id="Stat.Mill">0</span><br>
+		Smitherys: <span id="Stat.Smithery">0</span><br>
+		Barracks: <span id="Stat.Barracks">0</span><br>
+		Fields: <span id="Stat.Field">0</span><br>
+		Brick Fields: <span id="Stat.BrickField">0</span><br>
+		Brewerys: <span id="Stat.Brewery">0</span><br>
+		Animal Pens: <span id="Stat.AnimalPen">0</span><br>
+		Chests: <span id="Stat.Chest">0</span><br>
+		Caves: <span id="Stat.Cave">0</span><br>
+		TotalStorage: <span id="Stat.TotalStorage">0</span></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Food Data</a>
+	<li><a href="">Item Data</a>
 	<ul>
-		<li>Apple: <span id="Stat.Apple">0</span></li>
-		<li>Berry: <span id="Stat.Berry">0</span></li>
-		<li>Fish: <span id="Stat.Fish">0</span></li>
-		<li>Beef: <span id="Stat.Beef">0</span></li>
-		<li>Ham: <span id="Stat.Ham">0</span></li>
+		<li>Stone: <span id="Stat.Stone">0</span><br>
+		Dirt: <span id="Stat.Dirt">0</span><br>
+		Coal: <span id="Stat.Coal">0</span><br>
+		Iron: <span id="Stat.Iron">0</span><br>
+		Gold: <span id="Stat.Gold">0</span><br>
+		Flint: <span id="Stat.Flint">0</span><br>
+		Copper: <span id="Stat.Copper">0</span><br>
+		Wood: <span id="Stat.Wood">0</span><br>
+		Log: <span id="Stat.Log">0</span><br>
+		Wool: <span id="Stat.Wool">0</span><br>
+		Clay: <span id="Stat.Clay">0</span><br>
+		Brick: <span id="Stat.Brick">0</span><br>
+		Grass: <span id="Stat.Grass">0</span><br>
+		Wheat: <span id="Stat.Wheat">0</span></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Tool Data</a>
+	<li><a href="">Food Data</a>
 	<ul>
-		<li>Pick: <span id="Stat.Pick">0</span></li>
-		<li>Hoe: <span id="Stat.Hoe">0</span></li>
-		<li>Axe: <span id="Stat.Axe">0</span></li>
-		<li>Anvil: <span id="Stat.Anvil">0</span></li>
-		<li>Hammer: <span id="Stat.Hammer">0</span></li>
-		<li>Sword: <span id="Stat.Sword">0</span></li>
-		<li>Bow: <span id="Stat.Bow">0</span></li>
-		<li>Shear: <span id="Stat.Shear">0</span></li>
-		<li>Brick Mold: <span id="Stat.BrickMold">0</span></li>
+		<li>Apple: <span id="Stat.Apple">0</span><br>
+		Berry: <span id="Stat.Berry">0</span><br>
+		Fish: <span id="Stat.Fish">0</span><br>
+		Beef: <span id="Stat.Beef">0</span><br>
+		Ham: <span id="Stat.Ham">0</span></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Storage Data</a>
+	<li><a href="">Tool Data</a>
 	<ul>
-		<li>Chests: <span id="Stat.Chest">0</span></li>
-		<li>Caves: <span id="Stat.Cave">0</span></li>
-		<li>TotalStorage: <span id="Stat.TotalStorage">0</span></li>
+		<li>Pick: <span id="Stat.Pick">0</span><br>
+		Hoe: <span id="Stat.Hoe">0</span><br>
+		Axe: <span id="Stat.Axe">0</span><br>
+		Anvil: <span id="Stat.Anvil">0</span><br>
+		Hammer: <span id="Stat.Hammer">0</span><br>
+		Sword: <span id="Stat.Sword">0</span><br>
+		Bow: <span id="Stat.Bow">0</span><br>
+		Shear: <span id="Stat.Shear">0</span><br>
+		Brick Mold: <span id="Stat.BrickMold">0</span></li>
 	</ul>
 	</li>
 	
-	<li><a href="#">Time and Date</a>
+	<li><a href="">Time and Date</a>
 	<ul>
-		<li>Day: <span id="Stat.Time.Day">1</span></li>
-		<li>Year: <span id="Stat.Time.Year">1</span></li>
-		<li>Time: <span id="Stat.Time.Hours">00</span>:<span id="Stat.Time.Mins">00</span>:<span id="Stat.Time.Seconds">00</span></li>
+		<li>Day: <span id="Stat.Time.Day">1</span><br>
+		Year: <span id="Stat.Time.Year">1</span><br>
+		Time: <span id="Stat.Time.Hours">00</span>:<span id="Stat.Time.Mins">00</span>:<span id="Stat.Time.Seconds">00</span></li>
 	</ul>
 	</li>
 	
 </ul>
+
+<div id="body">
+Hello World
+</div>
+
+<div id="footer">
+<h5>Dwarf Civilizations I &copy; Daniel Jajliardo 2014</h5>
+</div>
 
 <!-- Load Scipts -->
 <script src="Scripts/jquery.min.js" /></script>
@@ -154,6 +178,7 @@ Dwarves Civ
 <script src="Dwarves/childtimer.js" /></script>
 <script src="Dwarves/newdwarf.js" /></script>
 <script src="Dwarves/newminer.js" /></script>
+<script src="Dwarves/dwarveseat.js" /></script>
 <script src="Scripts/initalize.js" /></script>
 <script src="Scripts/timeanddate.js" /></script>
 <script src="Scripts/localstorage.js" /></script>

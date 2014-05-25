@@ -50,6 +50,17 @@ Update = function(){
 	document.getElementById("Stat.BrickMold").innerHTML = Vars.Tools.BrickMold;
 
 	// Update Storage Data
+	
+	document.getElementById("Stat.House").innerHTML = Vars.Buildings.Houses
+	document.getElementById("Stat.Mine").innerHTML = Vars.Buildings.Mines;
+	document.getElementById("Stat.Farm").innerHTML = Vars.Buildings.Farms;
+	document.getElementById("Stat.Mill").innerHTML = Vars.Buildings.Mills
+	document.getElementById("Stat.Smithery").innerHTML = Vars.Buildings.Smitherys;
+	document.getElementById("Stat.Barracks").innerHTML = Vars.Buildings.Barracks;
+	document.getElementById("Stat.Field").innerHTML = Vars.Buildings.Fields;
+	document.getElementById("Stat.BrickField").innerHTML = Vars.Buildings.BrickFields;
+	document.getElementById("Stat.Brewery").innerHTML = Vars.Buildings.Brewerys;
+	document.getElementById("Stat.AnimalPen").innerHTML = Vars.Buildings.AnimalPens;
 	document.getElementById("Stat.Chest").innerHTML = Vars.Storage.Numbers.Chest
 	document.getElementById("Stat.Cave").innerHTML = Vars.Storage.Numbers.Cave;
 	document.getElementById("Stat.TotalStorage").innerHTML = Vars.Storage.Current;
