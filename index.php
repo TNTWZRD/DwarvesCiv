@@ -13,11 +13,11 @@ Dwarves Civ
 <div id="header">
 
 
-<a href="todolist.php">Todo List</a>
-<a href="suggestions.php">Suggestion Box</a>
-<span id="headertitle">Dwarf C<img src="images/header-icon.png">vilizations I</span>
-<a href="updates.php">Updates Log</a>
-<a href="howtoplay.php">How To Play</a>
+<a href="todolist.php" id="buttons">Todo List</a>
+<a href="suggestions.php" id="buttons">Suggestion Box</a>
+<span id="headertitle"><a href="index.php" id="home">Dwarf C<img src="images/header-icon.png">vilizations I</a></span>
+<a href="updates.php" id="buttons">Updates Log</a>
+<a href="howtoplay.php" id="buttons">How To Play</a>
 
 </div>
 
