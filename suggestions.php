@@ -274,6 +274,6 @@ button.reset:active {
 </div>
 </div>
 <div id="footer">
-<h5>Dwarf Civilizations I &copy; Daniel Jajliardo 2014 || Form &copy; <a href="www.techandall.com/simplesubmit-1-0-phpajax-contact-form-made-easy">TechAndAll</a></h5>
+<h5>Dwarf Civilizations I &copy; Daniel Jajliardo 2014 || Form &copy; <a href="http://www.techandall.com/simplesubmit-1-0-phpajax-contact-form-made-easy">TechAndAll</a></h5>
 </div>
 </body></html>
