@@ -3,6 +3,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="Styles/main-style.css">
+<link rel="icon" type="image/ico" href="images/favicon.ico">
 <title>
 Dwarves Civ
 </title>

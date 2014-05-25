@@ -10,7 +10,7 @@
 <meta name="robots" content="index, nofollow">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400' rel='stylesheet' type='text/css'>
-<link rel="icon" type="image/png" href="images/FaviCon.png">
+<link rel="icon" type="image/ico" href="images/favicon.ico">
 <link rel="stylesheet" type="text/css" href="screen.css">
 <link rel="stylesheet" type="text/css" href="Styles/main-style.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

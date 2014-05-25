@@ -23,30 +23,26 @@ Dwarves Civ
 </div>
 
 <div id="body">
-<h1> Our Current To-Do List: </h1>
-
-<ul>
-<li>Graphics
-	<ul>
-	<li>Add Some Pictures And Make The GUI more functional.</li>
-	</ul>
-</li>
-
-<li>Logic & Buttons
-	<ul>
-	<li>Finish Making all of the Logic Code Blocks.</li>
-	<li>Hook Up The Buttons To The Appropriate Logic Code.</li>
-	</ul>
-</li>
-
-<li>Logic Code Blocks
-	<ul>
-	<li>Make The New Dwarf Occupation Buttons Correspond To The Occupation On The List.</li>
-	<li>Make The Occupations Do Something When there Is One Or More Dwarves In It.</li>
-	<li>Create Buildings Logic; Costs, Rewards, And Bonus.</li>
-	</ul>
-</li>
-
+<h1>Updates List:</h1>
+<ul style="list-style: none;">
+	<li><h2>Update Beta 00.10</h2>
+		<ul style="list-style: none;">
+			<li>Bug Fixes: 
+				<ul style="list-style: none;">
+					<li>Children Not Aging (Fixed).</li>
+					<li>Utility Buttons Not Working (Fixed).</li>
+				</ul>
+			</li>
+			
+			<li>Logic Added: 
+				<ul style="list-style: none;">
+					<li>Children Now Grow Up.</li>
+					<li>Food Is Now Consumed At 7, 12, and 21 Hours.</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	
 </ul>
 
 </div>
