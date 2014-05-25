@@ -75,3 +75,4 @@ Update = function(){
 }
 
 Update();
+setInterval("Update()", 100);

@@ -15,6 +15,7 @@ Time.Seasons.Fall = 274;
 Time.Seasons.Winter = 365;
 
 Time.Seasons.Current;
+Time.Tickonds = 0;
 
 
 Time.Realtime = {};
@@ -58,7 +59,6 @@ RealSecondsAdd = function(){
 }
 
 checkTime =  function(){
-	
 	if(Time.Day > 0 && Time.Day <=91){
 		Time.Seasons.Current = "Spring";
 	}else if(Time.Day > 91 && Time.Day <=183){
@@ -79,7 +79,14 @@ checkTime =  function(){
 	if(Time.Seconds >= 60){
 		Time.Seconds = 0;
 		Time.Mins += 1;
+		Time.Tickonds += 1;
 	}
+	
+	if(Time.Tickonds == 6){
+		Main.Tick();
+		Time.Tickonds = 0;
+	}
+	
 	if(Time.Mins >= 60){
 		Time.Mins = 0;
 		Time.Hours += 1;

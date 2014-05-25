@@ -1,23 +1,22 @@
 Dwarves.Eat = function(){
-	Dwarves.adultsconsumeing = Dwarves.TotalDwarves;
-	Dwarves.childrenconsumeing = Dwarves.Childeren / 2;
+	Dwarves.TotalConsumed = Dwarves.Var.TotalDwarves + (Dwarves.Var.Children/2);
 	
-	Dwarves.TotalConsumed = Dwarves.adultsconsumeing + Dwarves.childrenconsumeing;
-	
-	if(Vars.Food.Apple >= Dwarves.TotalConsumed){
-		Vars.Food.Apple -= Dwarves.TotalConsumed;
-	}else if(Vars.Food.Berry >= Dwarves.TotalConsumed){
-		Vars.Food.Berry -= Dwarves.TotalConsumed;
-	}else if(Vars.Food.Fish >= Dwarves.TotalConsumed){
-		Vars.Food.Fish -= Dwarves.TotalConsumed;
-	}else if(Vars.Food.Beef >= Dwarves.TotalConsumed){
-		Vars.Food.Beef -= Dwarves.TotalConsumed;
-	}else if(Vars.Food.Ham >= Dwarves.TotalConsumed){
-		Vars.Food.Ham -= Dwarves.TotalConsumed;
+	for(i=0; i<=Dwarves.TotalConsumed; i++){
+	if(Vars.Food.Apple >= 1){
+		Vars.Food.Apple -= 1;
+	}else if(Vars.Food.Berry >= 1){
+		Vars.Food.Berry -= 1;
+	}else if(Vars.Food.Fish >= 1){
+		Vars.Food.Fish -= 1;
+	}else if(Vars.Food.Beef >= 1){
+		Vars.Food.Beef -= 1;
+	}else if(Vars.Food.Ham >= 1){
+		Vars.Food.Ham -= 1;
 	}else{
 		console.log("Clearing Save Game");
 		localStorage.clear();
 		window.location.reload();
 		confirm("You Have Run Out Of Food And Are Now Starving To Death..... Better Luck Next Time!");
 	}
-}
+	}
+} 

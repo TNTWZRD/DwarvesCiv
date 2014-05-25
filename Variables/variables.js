@@ -24,6 +24,8 @@ Vars.Items.Brick = 0;
 Vars.Items.Wheat = 0;
 Vars.Items.Grass = 0;
 
+Vars.Items.Total = Vars.Items.Stone + Vars.Items.Dirt + Vars.Items.Coal + Vars.Items.Iron + Vars.Items.Gold+ Vars.Items.Flint + Vars.Items.Copper + Vars.Items.Wood + Vars.Items.Log + Vars.Items.Wool + Vars.Items.Clay + Vars.Items.Brick + Vars.Items.Wheat + Vars.Items.Grass;
+
 // Building Vars
 
 Vars.Buildings.Houses = 1;
@@ -73,10 +75,10 @@ Vars.Food.Ham = 0;
 
 // Storage Numbers
 
-Vars.Storage.Current = 32; // Starting Storage
+Vars.Storage.Current = 250; // Starting Storage
 
 Vars.Storage.Numbers.Chest = 0;
 Vars.Storage.Numbers.Cave = 0;
 
-Vars.Storage.Chest = 32;
-Vars.Storage.Cave = 100;
+Vars.Storage.Chest = 100;
+Vars.Storage.Cave = 250;
