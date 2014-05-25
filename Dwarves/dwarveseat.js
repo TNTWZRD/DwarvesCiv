@@ -15,9 +15,9 @@ Dwarves.Eat = function(){
 	}else if(Vars.Food.Ham >= Dwarves.TotalConsumed){
 		Vars.Food.Ham -= Dwarves.TotalConsumed;
 	}else{
-		confirm("You Have Run Out Of Food And Are Now Starving To Death..... Better Luck Next Time!");
 		console.log("Clearing Save Game");
 		localStorage.clear();
 		window.location.reload();
+		confirm("You Have Run Out Of Food And Are Now Starving To Death..... Better Luck Next Time!");
 	}
 }

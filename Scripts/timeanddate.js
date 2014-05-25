@@ -105,9 +105,23 @@ checkTime =  function(){
 	}
 	
 	
-	if(Time.Hours == 7 || Time.Hours == 12 || Time.Hours == 21){
+	if(Time.Hours == 7 && Time.Seconds == 1 && Time.Mins == 1){
 		Dwarves.Eat();
 	}
+	if(Time.Hours == 12 && Time.Seconds == 1 && Time.Mins == 1){
+		Dwarves.Eat();
+	}
+	if(Time.Hours == 21 && Time.Seconds == 1 && Time.Mins == 1){
+		Dwarves.Eat();
+	}
+}
+
+Time.Set = function(yy,dd,hh,mm,ss){
+	Time.Year = yy;
+	Time.Day = dd;
+	Time.Hour = hh;
+	Time.Hours = hh;
+	Time.Seconds = ss;
 }
 
 setInterval("checkTime();",10);
