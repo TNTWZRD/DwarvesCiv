@@ -1,7 +1,6 @@
-Dwarves.newDwarf = function(num){
+Dwarves.newDwarf = function(){
 	console.log(Dwarves.Var.MaleDwarves);
 	console.log(Dwarves.Var.FemaleDwarves);
-	for(i=0; i<num; i++){
 	random = Math.floor(Math.random()*2);
 	console.log(Dwarves.Var.random);
 	if(random == 1){
@@ -18,7 +17,6 @@ Dwarves.newDwarf = function(num){
 		console.log("Created Female Dwarf");
 	}else{
 		console.log("Error In NewDwarf.js");
-	}
 	}
 	Update();
 };

@@ -1,8 +1,10 @@
 Time = {};
 
+Time.AmPm = "PM";
 Time.Seconds = 0;
 Time.Mins = 0;
 Time.Hours = 13;
+Time.Hour = 1;
 Time.Day = 0;
 Time.Year = 0;
 
@@ -32,9 +34,11 @@ SecondsAdd = function(){
 updateTime = function(){
 		document.getElementById("Stat.Time.Day").innerHTML = Time.Day;
 		document.getElementById("Stat.Time.Year").innerHTML = Time.Year;
-		document.getElementById("Stat.Time.Hours").innerHTML = Time.Hours;
+		document.getElementById("Stat.Time.Hours").innerHTML = Time.Hour;
 		document.getElementById("Stat.Time.Mins").innerHTML = Time.Mins;
 		document.getElementById("Stat.Time.Seconds").innerHTML = Time.Seconds;
+		document.getElementById("Stat.Time.AmPm").innerHTML = Time.AmPm;
+		
 }
 
 RealSecondsAdd = function(){
@@ -79,6 +83,7 @@ checkTime =  function(){
 	if(Time.Mins >= 60){
 		Time.Mins = 0;
 		Time.Hours += 1;
+		Time.Hour += 1;
 	}
 	if(Time.Hours >= 24){
 		Time.Hours = 0;
@@ -88,6 +93,17 @@ checkTime =  function(){
 		Time.Day = 0;
 		Time.Year += 1;
 	}
+	if(Time.Hour > 12){
+		if(Time.AmPm == "AM"){
+			Time.AmPm = "PM"
+			Time.Hour = 1;
+		}
+		if(Time.AmPm == "PM"){
+			Time.AmPm = "AM"
+			Time.Hour = 1;
+		}
+	}
+	
 	
 	if(Time.Hours == 7 || Time.Hours == 12 || Time.Hours == 21){
 		Dwarves.Eat();

@@ -65,6 +65,12 @@ Update = function(){
 	document.getElementById("Stat.Cave").innerHTML = Vars.Storage.Numbers.Cave;
 	document.getElementById("Stat.TotalStorage").innerHTML = Vars.Storage.Current;
 	
+	// Update Other Data
+	
+	document.getElementById("Stat.Money").innerHTML = "&Theta; " + Vars.Money;
+	document.getElementById("Stat.Prestige").innerHTML = "&Delta; " + Vars.Prestige;
+	document.getElementById("Stat.OccupationLimit").innerHTML =  Vars.OccupationLimit;
+	
 	// End Update Tab Stuff
 }
 

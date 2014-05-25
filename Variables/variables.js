@@ -26,7 +26,7 @@ Vars.Items.Grass = 0;
 
 // Building Vars
 
-Vars.Buildings.Houses = 0;
+Vars.Buildings.Houses = 1;
 Vars.Buildings.Mines = 0;
 Vars.Buildings.Farms = 0;
 Vars.Buildings.Mills = 0;
@@ -56,6 +56,12 @@ Vars.Tools.FishingRod = 0;
 Vars.Tools.BrickMold= 0;
 
 // Other Vars
+
+Vars.Money = 0;
+Vars.Prestige = 100;
+Vars.OccupationLimit = 5;
+
+Vars.HouseOccupationLimit = 5;
 
 // Food Vars
 

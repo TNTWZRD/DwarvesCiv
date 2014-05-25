@@ -80,9 +80,26 @@ Dwarves Civ
 	</ul>
 	</li>
 	
-	<li><a href="">Dwarf Data</a>
-	<ul>
-		<li>Dwarves: <span id="Stat.Dwarf">0</span><br>
+</ul>
+
+<div id="body">
+
+<hr>
+
+<div id="data">
+<table width="100%" style="text-align: left; margin: auto;">
+<tr>
+	<th width="16.67%">Dwarf Data:</th>
+	<th width="16.67%">Building Data:</th>
+	<th width="16.67%">Item Data:</th>
+	<th width="16.67%">Food Data:</th>
+	<th width="16.67%">Tool Data:</th>
+	<th width="16.67%">Other Data:</th>
+</tr>
+
+<tr>
+	<td>
+		Dwarves: <span id="Stat.Dwarf">0</span><br>
 		Childeren: <span id="Stat.Children">0</span><br>
 		Male Dwarves: <span id="Stat.MDwarf">0</span><br>
 		Female Dwarves: <span id="Stat.FDwarf">0</span><br>
@@ -95,13 +112,10 @@ Dwarves Civ
 		Guard: <span id="Stat.Guard">0</span><br>
 		Shepherd: <span id="Stat.Shepherd">0</span><br>
 		Builder: <span id="Stat.Builder">0</span><br>
-		Brickmaker: <span id="Stat.Brickmaker">0</span></li>
-	</ul>
-	</li>
+		Brickmaker: <span id="Stat.Brickmaker">0</span>
+	</td>
 	
-	<li><a href="">Building Data</a>
-	<ul>
-		<li>
+	<td>
 		Houses: <span id="Stat.House">0</span><br>
 		Mines: <span id="Stat.Mine">0</span><br>
 		Farms: <span id="Stat.Farm">0</span><br>
@@ -114,42 +128,36 @@ Dwarves Civ
 		Animal Pens: <span id="Stat.AnimalPen">0</span><br>
 		Chests: <span id="Stat.Chest">0</span><br>
 		Caves: <span id="Stat.Cave">0</span><br>
-		TotalStorage: <span id="Stat.TotalStorage">0</span></li>
-	</ul>
-	</li>
+		TotalStorage: <span id="Stat.TotalStorage">0</span>
+	</td>
 	
-	<li><a href="">Item Data</a>
-	<ul>
-		<li>Stone: <span id="Stat.Stone">0</span><br>
+	<td>
+		Stone: <span id="Stat.Stone">0</span><br>
 		Dirt: <span id="Stat.Dirt">0</span><br>
 		Coal: <span id="Stat.Coal">0</span><br>
 		Iron: <span id="Stat.Iron">0</span><br>
 		Gold: <span id="Stat.Gold">0</span><br>
 		Flint: <span id="Stat.Flint">0</span><br>
 		Copper: <span id="Stat.Copper">0</span><br>
-		Wood: <span id="Stat.Wood">0</span><br>
+		Planks: <span id="Stat.Wood">0</span><br>
 		Log: <span id="Stat.Log">0</span><br>
 		Wool: <span id="Stat.Wool">0</span><br>
 		Clay: <span id="Stat.Clay">0</span><br>
 		Brick: <span id="Stat.Brick">0</span><br>
 		Grass: <span id="Stat.Grass">0</span><br>
-		Wheat: <span id="Stat.Wheat">0</span></li>
-	</ul>
-	</li>
+		Wheat: <span id="Stat.Wheat">0</span>
+	</td>
 	
-	<li><a href="">Food Data</a>
-	<ul>
-		<li>Apple: <span id="Stat.Apple">0</span><br>
+	<td>
+		Apple: <span id="Stat.Apple">0</span><br>
 		Berry: <span id="Stat.Berry">0</span><br>
 		Fish: <span id="Stat.Fish">0</span><br>
 		Beef: <span id="Stat.Beef">0</span><br>
-		Ham: <span id="Stat.Ham">0</span></li>
-	</ul>
-	</li>
+		Ham: <span id="Stat.Ham">0</span>
+	</td>
 	
-	<li><a href="">Tool Data</a>
-	<ul>
-		<li>Pick: <span id="Stat.Pick">0</span><br>
+	<td>
+		Pick: <span id="Stat.Pick">0</span><br>
 		Hoe: <span id="Stat.Hoe">0</span><br>
 		Axe: <span id="Stat.Axe">0</span><br>
 		Anvil: <span id="Stat.Anvil">0</span><br>
@@ -157,22 +165,29 @@ Dwarves Civ
 		Sword: <span id="Stat.Sword">0</span><br>
 		Bow: <span id="Stat.Bow">0</span><br>
 		Shear: <span id="Stat.Shear">0</span><br>
-		Brick Mold: <span id="Stat.BrickMold">0</span></li>
-	</ul>
-	</li>
+		Brick Mold: <span id="Stat.BrickMold">0</span>
+	</td>
 	
-	<li><a href="">Time and Date</a>
-	<ul>
-		<li>Day: <span id="Stat.Time.Day">1</span><br>
+	<td>
+		Day: <span id="Stat.Time.Day">1</span><br>
 		Year: <span id="Stat.Time.Year">1</span><br>
-		Time: <span id="Stat.Time.Hours">00</span>:<span id="Stat.Time.Mins">00</span>:<span id="Stat.Time.Seconds">00</span></li>
-	</ul>
-	</li>
-	
-</ul>
+		Time: <span id="Stat.Time.Hours">00</span>:<span id="Stat.Time.Mins">00</span>:<span id="Stat.Time.Seconds">00</span> <span id="Stat.Time.AmPm">PM</span><br>
+		Coins: <span id="Stat.Money">0</span><br>
+		Prestige: <span id="Stat.Prestige">0</span><br>
+		Occupation Limit: <span id="Stat.OccupationLimit">0</span><br>
+	</td>
+</tr>
 
-<div id="body">
-Hello World
+</table>
+</div>
+
+<hr>
+
+<div id="trade">
+
+</div>
+
+
 </div>
 
 <div id="footer">
@@ -186,6 +201,14 @@ Hello World
 <script src="Dwarves/childtimer.js" /></script>
 <script src="Dwarves/newdwarf.js" /></script>
 <script src="Dwarves/newminer.js" /></script>
+<script src="Dwarves/newblacksmith.js" /></script>
+<script src="Dwarves/newbrickmaker.js" /></script>
+<script src="Dwarves/newbuilder.js" /></script>
+<script src="Dwarves/newfarmer.js" /></script>
+<script src="Dwarves/newguard.js" /></script>
+<script src="Dwarves/newhunter.js" /></script>
+<script src="Dwarves/newlogger.js" /></script>
+<script src="Dwarves/newshepherd.js" /></script>
 <script src="Dwarves/dwarveseat.js" /></script>
 <script src="Scripts/initalize.js" /></script>
 <script src="Scripts/timeanddate.js" /></script>

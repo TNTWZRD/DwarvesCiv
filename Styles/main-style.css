@@ -63,8 +63,8 @@ body{
 }
 
 #navbar{
-	margin-left: -44px;
-	margin-top: -5px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #navbar li a{
@@ -109,4 +109,10 @@ body{
 	list-style: none;
 }
 
+td span{
+	color: #00FF0A;
+}
 
+#data td{
+	color: #00FFB6;
+}
