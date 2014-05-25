@@ -11,7 +11,14 @@ Dwarves Civ
 <body>
 
 <div id="header">
-<h1>Dwarf Civilizations I</h1>
+
+
+<a href="todolist.php">Todo List</a>
+<a href="suggestions.php">Suggestion Box</a>
+<span id="headertitle">Dwarf C<img src="images/header-icon.png">vilizations I</span>
+<a href="updates.php">Updates Log</a>
+<a href="howtoplay.php">How To Play</a>
+
 </div>
 
 <ul id="navbar">

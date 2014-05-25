@@ -15,11 +15,31 @@ body{
 
 #header{
 	background-color: silver;
-	margin-top: -24px;
+	margin-top: -8px;
 	margin-left: -8px;
 	margin-right: -8px;
+	margin-bottom: 8px;
+	padding: 5px;
+	font-size: 22pt;
 	text-align: center;
 	text-shadow: grey 3px 3px 2px;
+}
+
+#header a{
+	background-color: Black;
+	font-size: 16pt;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px;
+	padding: 2px;
+	border-radius: 3px;
+	text-shadow: #grey 3px 3px 2px;
+}
+
+#header img{
+	margin-bottom: -6px;
+	margin-right: -6px;
 }
 
 #footer{
@@ -77,3 +97,5 @@ body{
 	padding: 2px;
 	list-style: none;
 }
+
+
